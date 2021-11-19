@@ -4,6 +4,8 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
+    "build": "npm install",
+    "start": "node http_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,8 +18,6 @@
     "url": "https://github.com/kogsio/littletiers/issues"
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
-  "build": "npm install",
-  "start": "node http_server.js",
   "engines": {
     "node": "14.18.1"
   },
